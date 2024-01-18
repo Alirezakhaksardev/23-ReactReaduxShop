@@ -7,9 +7,11 @@
 }
 body {
   direction: rtl;
-  font-family: 'IRANSANSWEB' !important;
+  font-family: 'IRANSansWeb(FaNum)' !important;
 }
-
+button{
+  font-family: "IRANSansWeb(FaNum)" !important;
+}
 nav{
   display: flex;
   align-items: center;
@@ -104,6 +106,7 @@ nav a{
   padding: 4px 10px;
   cursor: pointer;
   margin-top: 30px;
+  font-family: "IRANSANSWEB" !important;
 }
 .cart .cart-item span{
   padding: 0 10px;
@@ -115,4 +118,21 @@ nav a{
   background: crimson;
   color: #fff;
   padding: 50px 0;
+}
+.right-navbar{
+  position: relative;
+}
+.notif{
+  border-radius: 50%;
+  font-size: 13px ;
+  background-color: rgb(109, 109, 255);
+  /* padding: 2px 4px; */
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -20px;
 }
